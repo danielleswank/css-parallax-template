@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1">
+
+    <title>{Title}</title>
+
+    <link href="favicon.ico" rel="icon" type="image/x-icon">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <header>
+        <h1><span>Title</span> SubTitle</h1>
+    </header>
+
+    <main>
+      <section id="one">
+        <figure></figure>
+        <article>
+          <img alt="{altcontent}" src="images/accent-a.jpg">
+          <h2>{Title}</h2>
+          <h3>{Subtitle}</h3>
+          <p><em>{Short Description}</em></p>
+          <h4>{List}</h4>
+          <ul>
+            <li>{Item One}</li>
+            <li>{Item Two}</li>
+            <li>{Item Three}</li>
+            <li>{Item Four}</li>
+            <li>{Item Five}</li>
+          </ul>
+          <h4>{Optional Subtitle}</h4>
+          <p>{Long Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pretium aliquam leo, ac ultrices sem sollicitudin quis. Curabitur aliquam nisi leo, vel tincidunt orci lacinia et. Quisque pretium bibendum cursus. Integer feugiat molestie ante ut consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut ut sem ultrices, tempus velit eu, scelerisque augue.}</p>
+          <p>
+            <a href="#" target="_blank">{Link}</a><br>
+            <a href="#" target="_blank">{Link}</a>
+          </p>
+        </article>
+      </section>
+
+      <section id="two">
+        <figure></figure>
+        <article>
+          <img alt="{altcontent}" src="images/accent-b.jpg">
+          <h2>{Title}</h2>
+          <h3>{Subtitle}</h3>
+          <p><em>{Short Description}</em></p>
+          <h4>{Subtitle}</h4>
+          <p>{Long Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pretium aliquam leo, ac ultrices sem sollicitudin quis. Curabitur aliquam nisi leo, vel tincidunt orci lacinia et. Quisque pretium bibendum cursus. Integer feugiat molestie ante ut consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut ut sem ultrices, tempus velit eu, scelerisque augue.}</p>
+          <p>
+        </article>
+      </section>
+
+     <section id="three">
+        <figure></figure>
+        <article>
+          <img alt="{altcontent}" src="images/accent-c.jpg">
+          <h2>{Title}</h2>
+          <h3>{Subtitle}</h3>
+          <p><em>{Short Description}</em></p>
+          <h4>{List}</h4>
+          <ul>
+            <li>{Item One}</li>
+            <li>{Item Two}</li>
+            <li>{Item Three}</li>
+            <li>{Item Four}</li>
+            <li>{Item Five}</li>
+          </ul>
+          <p>{Long Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pretium aliquam leo, ac ultrices sem sollicitudin quis. Curabitur aliquam nisi leo, vel tincidunt orci lacinia et. Quisque pretium bibendum cursus. Integer feugiat molestie ante ut consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut ut sem ultrices, tempus velit eu, scelerisque augue.}</p>
+          <p>
+          <p><a href="#" target="_blank">{Link}</a></p>
+        </article>
+      </section>
+
+      <section id="four">
+        <figure></figure>
+        <article>
+          <img alt="{altcontent}" src="images/accent-d.jpg">
+          <h2>{Title}</h2>
+          <h3>{Subtitle}</h3>
+          <p><em>{Short Description}</em></p>
+          <h4>{List}</h4>
+          <ul>
+            <li>{Item One}</li>
+            <li>{Item Two}</li>
+            <li>{Item Three}</li>
+            <li>{Item Four}</li>
+            <li>{Item Five}</li>
+          </ul>
+          <p>{Long Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pretium aliquam leo, ac ultrices sem sollicitudin quis. Curabitur aliquam nisi leo, vel tincidunt orci lacinia et. Quisque pretium bibendum cursus. Integer feugiat molestie ante ut consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut ut sem ultrices, tempus velit eu, scelerisque augue.}</p>
+          <p>
+        </article>
+      </section>
+
+      <section id="five">
+        <figure></figure>
+        <article>
+          <img alt="Lost Toys Icon" src="images/accent-e.jpg">
+          <h2>{Title}</h2>
+          <h3>{Subtitle}</h3>
+          <p>{Long Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pretium aliquam leo, ac ultrices sem sollicitudin quis. Curabitur aliquam nisi leo, vel tincidunt orci lacinia et. Quisque pretium bibendum cursus. Integer feugiat molestie ante ut consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut ut sem ultrices, tempus velit eu, scelerisque augue.}</p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>MIT License. Template by <a href="//danielleswank.com">Danielle Swank</a>. <a href="//github.com/danielleswank/css-parallax-template" target="_blank">GitHub</a>.</p>
+    </footer>
+
+    <script>
+    (function () {
+      // adds CSS styles for non-mobile devices
+      var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windowsce|palm/i.test(navigator.userAgent.toLowerCase()));
+      if (!mobile) {
+        var figures = document.getElementsByTagName("figure");
+        for (var i = 0; i < figures.length; i++) {
+          figures[i].style.backgroundAttachment = "fixed";
+        }
+      }
+    }());
+    </script>
+
+  </body>
+</html>
